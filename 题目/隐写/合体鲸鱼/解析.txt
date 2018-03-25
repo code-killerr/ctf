@@ -1,0 +1,4 @@
+拿到图片使用stegslove进行常规扫描没有发现异常
+使用winhex查看发现结尾有问题，疑似两张图片合并
+使用frame Browser功能发现两张图片，查看另一张图片
+发现flag{youfindmeWHALE}

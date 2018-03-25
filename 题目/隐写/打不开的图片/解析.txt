@@ -1,0 +1,8 @@
+下载文件后无法打开猜测文件头不完整
+使用notepad打开后发现首位缺少文件头
+添加GIF8使其完整
+出现gif图片
+使用photoshop或Stegsolve读取出其中代码
+发现代码后面拥有==推测为base64代码
+解码得到flag
+this is a gift

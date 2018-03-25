@@ -1,0 +1,5 @@
+拿到图片并没有发现信息以及文件格式的异常
+猜测为LSB加密
+使用stegslove扫描，在red plane0处发现隐藏二维码
+扫描二维码得到flag
+flag{AppLeU0}

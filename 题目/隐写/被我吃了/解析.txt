@@ -1,0 +1,5 @@
+使用winhex或者Stegsolve可以发现文件结尾不为FFD9
+并且发现拥有.txt后缀的标识
+猜测为zip与jpg图片合并的文件
+后缀改为.zip发现flag
+flag{WelcomeT3WhaleCTF}

@@ -1,0 +1,5 @@
+打开图片明显发现有东西一闪而过
+使用winhex打开文件发现文件头为GIF判定图片为gif图片
+修改后缀为gif
+使用stegslove分离图片发现flag
+GUETCTF{Y0u_sEE_m3}

@@ -1,0 +1,7 @@
+扫描图片以及查看信息未见异常
+通过提示对于兔子脚下不明色块使用photoshop进行处理
+处理许久未见异常
+使用winhex打开图片
+发现文件末尾疑似unicode编码字符
+解码发现flag
+flag{pE3kQzmaMN}

@@ -1,0 +1,3 @@
+使用stegslove扫描未见异常
+查看信息发现版权信息为flag
+flag{firsttry}

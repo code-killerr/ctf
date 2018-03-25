@@ -1,0 +1,6 @@
+发现无法打开gif图片，使用notepad查看图片
+发现文件头缺失，修改图片头成功查看到一行编码
+由于编码后==推测为base64编码
+解码后得到flag
+catch_the_dynamic_flag_is_quite_simple
+注意图片1和l的区别
