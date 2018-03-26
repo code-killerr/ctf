@@ -1,0 +1,9 @@
+使用stegslove扫描图片
+发现密码key{forensics_is_fun}
+输入提取出gif文件
+发现文件无法打开
+使用记事本查看图片
+发现缺少文件头
+添加GIF8成功查看gif文件
+提取出flag
+CTF{AS3X}
