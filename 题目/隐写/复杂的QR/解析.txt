@@ -1,0 +1,7 @@
+打开文件扫描二维码显示secret is here
+扫描图片及信息发现隐藏文件
+更改后缀为zip
+发现加密的4number
+既然密码是4个开始爆破
+爆破出密码打开发现flag
+CTF{vjpw_wnoei}
