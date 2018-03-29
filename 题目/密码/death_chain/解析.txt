@@ -1,0 +1,4 @@
+查找夏多的死亡密码
+发现明文对照表
+对照解出flag
+HELPMEPLEASE
