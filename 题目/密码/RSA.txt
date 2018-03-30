@@ -1,0 +1,22 @@
+RSA生成秘钥
+1.取两个大素数p,q保密p,q
+2.计算n=pq,公开n
+3.计算欧拉函数Φ(n)=(p-1)(q-1)
+4任意取一个与欧拉函数互素的小整数e，公开e
+作为公钥
+5寻找私钥d，使de=1 mod Φ(n)即de=kΦ(n)+1
+RSA加密/解密
+1.找到密钥对(KU,KR):KU={e,n},KR={d,n}
+2.加密:把待加密内容分成k比特的分组,k<=log2n,并写成数字设为M
+计算C=M^e mod n
+3解密
+M=c^d mod n
+例:
+明文为19，即M=19
+e=5
+d=77
+n=119
+密文:C=19^5 mod 119=66
+解密:M=66^77 mod 119=19
+openssl解密用法
+openssl rsautl -decrype -in 密文 -inkey 私钥 -out 生成文件名
