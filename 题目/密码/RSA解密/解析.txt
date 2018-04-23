@@ -8,4 +8,4 @@ pk后00 14 00 09
 打开文件发现imhere和flag文件
 imhere为RSA私钥
 使用私钥破解密文即可得到flag
-openssl rsautl -decrypt -in flag -inkey imhere -out flag.txt
+openssl rsautl -decrypt -in flag -inkey imhere -out flag.txt 
