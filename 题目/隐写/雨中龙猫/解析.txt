@@ -1,0 +1,9 @@
+由题目猜想答案隐藏在图片源码中
+查看源码首尾并未发现相符的flag
+由题目可知答案格式为whalectf可以试将其转换为base64码进行搜索
+然而由于base64特性，不足8个补=号，我们只截取转码后的前几个字母搜索，得到d2hhbGVjdGZ7TG
+然而转码后发现答案长度远远不到题目中所说的27条，所以认为还有剩余的代码未发现
+题目中表示最后两个字母为py同样的将py转码截取部分搜索找到剩余代码，组合为
+d2hhbGVjdGZ7TG9uZ19tYW9faXNfaGFwcHl9
+转码完毕后得到flag
+whalectf{Long_mao_is_happy}
