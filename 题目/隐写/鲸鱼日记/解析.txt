@@ -1,0 +1,16 @@
+用notepad++打开图片,在首部发现疑似flag的flag{firsttry}
+输入发现flag错误，继续研究源码，感觉源码疑似多个文件拼接
+将jpg后缀改为zip发现很多xml文件
+胡乱翻看在theme的文件夹中的theme1中发现有office主题字样，怀疑为word文档
+将jpg后缀名改为docx使用word打开
+进行修复发现一首英文诗
+并没有见到flag身影
+查看文件信息没有发现啥玩意
+全选没发现白色字体
+点开word的文字隐藏选项发现有部分隐藏字体
+取消隐藏发现flag
+whale{lovese
+发现貌似没括号，就算加上括号也不对
+没办法偷懒了，上foremost
+取出docx文件，取消隐藏发现flag
+whale{lovesea}
